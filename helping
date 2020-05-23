@@ -1,0 +1,1 @@
+send_mail('Django mail', 'This e-mail was sent with Django.', 'krzysztof8404@gmail.com', ['pythonpsycofan@gmail.com'], fail_silently=False)
