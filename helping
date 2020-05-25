@@ -1,1 +1,12 @@
 send_mail('Django mail', 'This e-mail was sent with Django.', 'krzysztof8404@gmail.com', ['pythonpsycofan@gmail.com'], fail_silently=False)
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+
+Accessing a Postgres Prompt Without Switching Accounts
+You can also run the command you’d like with the postgres account directly with sudo.
+
+For instance, in the last example, we just wanted to get to a Postgres prompt. We could do this in one step by running the single command psql as the postgres user with sudo like this:
+
+sudo -u postgres psql
